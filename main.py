@@ -1,6 +1,5 @@
 import serial
 from threading import Event, Thread
-from time import sleep
 
 # Serial configuration
 serialPort = serial.Serial('/dev/ttyUSB0')
